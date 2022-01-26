@@ -51,17 +51,19 @@
     
         #restart {
             position: relative;
+            font-size: 13px;
             background-color: white;
             border: 1px solid grey;
             height: 20px;
-            width: 80px;
+            width: 100px;
             margin: 5px;
             margin-right: 20px;
             box-shadow: 2px 2px 2px grey;
         }
 
         #scoreboard {
-            margin: 5px;
+            font-size: 15px;
+            margin: 7px;
         }
 
         #score {
