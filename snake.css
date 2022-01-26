@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+        body {
+            background-color: white;
+            height: 100vh;
+            width: 100vw; 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+
+        #header {
+            padding: 5px;
+            position: fixed;
+            font-size: 60px;
+            background: -webkit-linear-gradient(black, white);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Rock Salt', cursive;
+            font-size: 40px;
+            margin-top: 15px;
+        }
+
+
+        #game-board {
+            position: fixed;
+            margin-top: 130px;
+            align-self: center;
+            background-color:black;
+            width: 80vmin;
+            height: 80vmin;
+            display: grid;
+            grid-template-rows: repeat(24, 1fr);
+            grid-template-columns: repeat(24, 1fr);
+            box-shadow: 10px 10px 10px rgb(62, 62, 62);
+            border: 2px solid teal;
+            margin-bottom: 50px;
+        }
+
+        #menu {
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 4px;
+            position: fixed;
+        }
+
+    
+        #restart {
+            position: relative;
+            background-color: white;
+            border: 1px solid grey;
+            height: 20px;
+            width: 80px;
+            margin: 5px;
+            margin-right: 20px;
+            box-shadow: 2px 2px 2px grey;
+        }
+
+        #scoreboard {
+            margin: 5px;
+        }
+
+        #score {
+            position: relative;
+            font-family: 'Raleway', sans-serif;
+            margin: 5px;
+        }
+
+
+        .snake {
+            height:20px;
+            width:20px;
+            border-radius: 50%;
+            background-color: teal;
+
+        }
+
+        .apple {
+            height:20px;
+            width:20px;
+            border-radius: 50%;
+            background: linear-gradient(300deg, red 10%, black);
+        }
